@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+  <div id="Div1"></div>
+  <div id="Div2"></div>
+  <div id="Div3"></div>
+  <div id="Div4"></div>
+  <div id="Div5"></div>
+  <div id="Div6"></div>
+  <div id="Div7"></div>
+  <div id="DivBtn"> <input type="button" id="btnR" value="Red" onclick="btnRed();"> &nbsp;&nbsp;
+    <input type="button" value="Orange" onclick="btnOrange();">&nbsp;&nbsp;
+    <input type="button" value="Yellow" onclick="btnYellow();">&nbsp;&nbsp;
+    <input type="button" value="Green" onclick="btnGreen();">&nbsp;&nbsp;
+    <input type="button" value="Blue" onclick="btnBlue();">&nbsp;&nbsp;
+    <input type="button" value="Indigo" onclick="btnIndigo();">&nbsp;&nbsp;
+    <input type="button" value="Violet" onclick="btnViolet();">&nbsp;&nbsp;
+    <input type="button" id="btnReset" value="Reset" onclick="btnReset()">
+  </div>
+  <script>
+    function btnRed() {
+      document.getElementById("Div1").style.backgroundColor = "Red";
+    }
+    function btnOrange() {
+      document.getElementById("Div2").style.backgroundColor = "Orange";
+    }
+    function btnYellow() {
+      document.getElementById("Div3").style.backgroundColor = "Yellow";
+    }
+    function btnGreen() {
+      document.getElementById("Div4").style.backgroundColor = "Green";
+    }
+    function btnBlue() {
+      document.getElementById("Div5").style.backgroundColor = "Blue";
+    }
+    function btnIndigo() {
+      document.getElementById("Div6").style.backgroundColor = "Indigo";
+    }
+    function btnViolet() {
+      document.getElementById("Div7").style.backgroundColor = "Violet";
+    }
+    function btnReset() {
+      document.getElementById("Div1").style.backgroundColor = "white";
+      document.getElementById("Div2").style.backgroundColor = "white";
+      document.getElementById("Div3").style.backgroundColor = "white";
+      document.getElementById("Div4").style.backgroundColor = "white";
+      document.getElementById("Div5").style.backgroundColor = "white";
+      document.getElementById("Div6").style.backgroundColor = "white";
+      document.getElementById("Div7").style.backgroundColor = "white";
+    }
+
+  </script>
+</body>
+
+</html>
